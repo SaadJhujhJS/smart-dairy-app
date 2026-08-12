@@ -96,12 +96,12 @@ const handleClearFilters = () => {
       </div>
 
       <!-- Search Input -->
-      <div class="relative w-full md:max-w-md shadow-sm">
+      <div class="relative w-full md:max-w-md shadow-sm rounded-2xl">
         <input 
           type="text" 
           v-model="searchQuery"
           placeholder="Search pure honey, ghee, khoya..."
-          class="w-full pl-11 pr-4 py-3 bg-white border border-stone-200 rounded-2xl focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-sm placeholder:text-stone-400 font-medium"
+          class="w-full pl-11 pr-4 py-3 bg-white border-none rounded-2xl focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 text-sm placeholder:text-stone-400 font-medium"
         />
         <Search class="absolute left-4 top-3.5 h-4.5 w-4.5 text-stone-400" />
         <button 
