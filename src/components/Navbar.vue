@@ -36,12 +36,12 @@ const navigateTo = (path) => {
         
         <!-- Logo -->
         <router-link to="/" class="flex items-center space-x-2.5 group">
-          <div class="h-10 w-10 sm:h-11 sm:w-11 rounded-xl bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center shadow-md shadow-amber-500/25 group-hover:rotate-6 transition-transform duration-300">
+          <div class="h-10 w-10 sm:h-11 sm:w-11 rounded-xl bg-linear-to-br from-amber-400 to-amber-600 flex items-center justify-center shadow-md shadow-amber-500/25 group-hover:rotate-6 transition-transform duration-300">
             <Leaf class="h-5 w-5 sm:h-6 sm:w-6 text-white" />
           </div>
           <div class="flex flex-col">
             <span class="text-lg sm:text-xl font-black tracking-tight text-stone-900 group-hover:text-primary-600 transition-colors duration-200">
-              Smart Dairy<span class="text-primary-600 font-medium">Store</span>
+              Jhujh Dairy<span class="text-primary-600 font-medium">Store</span>
             </span>
             <span class="text-[10px] text-secondary-600 font-bold tracking-wider uppercase -mt-1">
               100% Raw & Pure

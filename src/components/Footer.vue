@@ -59,7 +59,7 @@ const handleSubscribe = () => {
             <Leaf class="h-5 w-5" />
           </div>
           <span class="text-lg font-black tracking-tight text-white">
-            Smart Dairy<span class="text-amber-500 font-medium">Store</span>
+            Jhujh Dairy<span class="text-amber-500 font-medium">Store</span>
           </span>
         </div>
         <p class="text-sm text-stone-500 leading-relaxed">
@@ -83,15 +83,15 @@ const handleSubscribe = () => {
         <h4 class="text-sm font-extrabold text-white uppercase tracking-wider mb-5">Contact Details</h4>
         <ul class="space-y-4 text-sm text-stone-400">
           <li class="flex items-start space-x-2.5">
-            <MapPin class="w-5 h-5 text-amber-500 flex-shrink-0 mt-0.5" />
+            <MapPin class="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
             <span>Farm Lane, Organic Meadows, Sector 12, Mohali, India</span>
           </li>
           <li class="flex items-center space-x-2.5">
-            <Phone class="w-4 h-4 text-amber-500 flex-shrink-0" />
+            <Phone class="w-4 h-4 text-amber-500 shrink-0" />
             <span>+91 98765 43210</span>
           </li>
           <li class="flex items-center space-x-2.5">
-            <Mail class="w-4 h-4 text-amber-500 flex-shrink-0" />
+            <Mail class="w-4 h-4 text-amber-500 shrink-0" />
             <span>contact@smartdairystore.com</span>
           </li>
         </ul>
@@ -107,7 +107,7 @@ const handleSubscribe = () => {
             v-model="emailInput"
             placeholder="Your Email" 
             required
-            class="flex-grow bg-transparent px-3 text-sm text-white focus:outline-none placeholder:text-stone-600"
+            class="grow bg-transparent px-3 text-sm text-white focus:outline-none placeholder:text-stone-600"
           />
           <button 
             type="submit"
@@ -133,7 +133,7 @@ const handleSubscribe = () => {
     <!-- Copyright -->
     <div class="bg-stone-950/60 border-t border-stone-900 py-6 text-center text-xs text-stone-600">
       <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between space-y-2 sm:space-y-0">
-        <span>© 2026 Smart Dairy Store. All rights reserved.</span>
+        <span>© 2026 Jhujh Dairy Store. All rights reserved.</span>
         <span class="flex items-center">
           Made with <Heart class="w-3.5 h-3.5 text-red-500 mx-1 fill-red-500" /> for Healthy Living.
         </span>
