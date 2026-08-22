@@ -41,7 +41,7 @@ const navigateTo = (path) => {
           </div>
           <div class="flex flex-col">
             <span class="text-lg sm:text-xl font-black tracking-tight text-stone-900 group-hover:text-primary-600 transition-colors duration-200">
-              Jhujh Dairy<span class="text-primary-600 font-medium">Store</span>
+              Smart Dairy<span class="text-primary-600 font-medium">Store</span>
             </span>
             <span class="text-[10px] text-secondary-600 font-bold tracking-wider uppercase -mt-1">
               100% Raw & Pure

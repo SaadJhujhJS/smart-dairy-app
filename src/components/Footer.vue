@@ -59,7 +59,7 @@ const handleSubscribe = () => {
             <Leaf class="h-5 w-5" />
           </div>
           <span class="text-lg font-black tracking-tight text-white">
-            Jhujh Dairy<span class="text-amber-500 font-medium">Store</span>
+            Smart Dairy<span class="text-amber-500 font-medium">Store</span>
           </span>
         </div>
         <p class="text-sm text-stone-500 leading-relaxed">
@@ -133,7 +133,7 @@ const handleSubscribe = () => {
     <!-- Copyright -->
     <div class="bg-stone-950/60 border-t border-stone-900 py-6 text-center text-xs text-stone-600">
       <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between space-y-2 sm:space-y-0">
-        <span>© 2026 Jhujh Dairy Store. All rights reserved.</span>
+        <span>© 2026 Smart Dairy Store. All rights reserved.</span>
         <span class="flex items-center">
           Made with <Heart class="w-3.5 h-3.5 text-red-500 mx-1 fill-red-500" /> for Healthy Living.
         </span>
