@@ -373,7 +373,32 @@ const handleSubmitOrder = async () => {
               </div>
 
               <!-- Card form placeholder -->
-              <div v-if="form.paymentMethod === 'CARD'" class="space-y-4 pt-4 border-t border-stone-100">
+              <div
+  v-if="form.paymentMethod === 'CARD'"
+  class="border border-stone-200 rounded-2xl bg-white p-4 flex items-center justify-between h-20 shadow-sm"
+>
+  <div class="flex items-center gap-3">
+    <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-white shadow-sm">
+      💳
+    </div>
+
+    <div>
+      <p class="font-semibold text-gray-800">
+        Credit / Debit Card
+      </p>
+      <p class="text-sm text-gray-500">
+        Card payments will be available soon.
+      </p>
+    </div>
+  </div>
+
+  <span
+    class="whitespace-nowrap rounded-full bg-primary-600 px-3 py-1 text-xs font-semibold text-white"
+  >
+    Coming Soon
+  </span>
+</div>
+              <!-- <div v-if="form.paymentMethod === 'CARD'" class="space-y-4 pt-4 border-t border-stone-100">
                 <div>
                   <label class="block text-xs font-bold text-stone-500 uppercase tracking-wider mb-1.5">Card Number</label>
                   <input 
@@ -409,7 +434,7 @@ const handleSubmitOrder = async () => {
                     <p v-if="errors.cardCvv" class="text-xs text-red-500 font-semibold mt-1">{{ errors.cardCvv }}</p>
                   </div>
                 </div>
-              </div>
+              </div> -->
 
               <!-- Navigation Buttons -->
               <div class="pt-6 border-t border-stone-100 flex items-center justify-between">
